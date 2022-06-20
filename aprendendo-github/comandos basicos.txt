@@ -1,0 +1,14 @@
+git init    "iniciando um repositorio como um repositorio remoto"
+git add . "adiciona todas as mudanças e arquivos pro repositorio remoto"
+git commit -m ""   "entrega as informações das mudanças com um nome especifico" 
+git push (-u origin "sua branch")   "upload dos seus arquivos pro remoto(github site)"
+depois de usar git push -u origin pode só usar "git push" que ta tudo certo
+git clone      "cria um clone do repositorio remoto pra sua máquina"
+git status "verifica o status dos arquivos"
+git log "histórico de mudanças"
+
+
+*NUNCA ESQUECER*
+
+inicio de repositorio adicionar no terminal o repositorio 
+git remote add origin git@github.com:User/seurepositorio
